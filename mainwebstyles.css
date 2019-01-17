@@ -35,7 +35,7 @@ h1 {
 
 nav {
   font-weight: bold;
-  /* padding: 5px; */
+  padding: 5px;
   float: left;
   width: 160px;
   padding: 20px 5px 0 20px;
@@ -92,9 +92,12 @@ h3 {
 }
 
 main {
-  padding: 1px 20px 1px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #FFFFFF;
   margin-left: 170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 main img {
