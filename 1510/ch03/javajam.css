@@ -15,6 +15,11 @@ nav {
   text-align: center;
 }
 
+header {
+  background-color: #D2B48C;
+  text-align: center;
+}
+
 footer {
   background: #D2B48C;
   font-size: .6em;
