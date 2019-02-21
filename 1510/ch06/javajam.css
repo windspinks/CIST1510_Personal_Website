@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #FCEBB6 url("images/background.gif");
+  background: #FCEBB6 url("../images/background.gif");
   color: #221811;
   font-family: Verdana, Arial, sans-serif;
 }
@@ -37,7 +37,7 @@ footer {
 }
 
 header {
-  background: #D2B48C url("images/javajamlogo.jpg") no-repeat;
+  background: #D2B48C url("../images/javajamlogo.jpg") no-repeat;
   height: 150px;
   display: block;
 }
