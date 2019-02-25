@@ -187,6 +187,25 @@ input, textarea {
   height: 250px;
 }
 
+.item {
+  background-color: #FAF9F7;
+  margin: 2em 3em;
+  width: 80%;
+  padding: 1em;
+  overflow: auto;
+}
+
+.item img {
+  float: right;
+}
+
+#herocouch {
+  height: 250px;
+  background: url(../images/herocouch.jpg);
+  background-size: 100% 100%;
+
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     margin 0;
