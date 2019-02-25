@@ -182,7 +182,8 @@ input, textarea {
 }
 
 #herojobs {
-  background: url(../images/herojobs.jpg) 100% 100%;
+  background: url(../images/herojobs.jpg);
+  background-size: 100% 100%;
   height: 250px;
 }
 
