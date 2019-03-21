@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#table-one-wrapper {
+  height:80vh;
+}
+
+td {
+  border: 1px solid #000;
+}
+
+table {
+  /* border-collapse: collapse; */
+  text-align: center;
+  border: 1px solid #000;
+  width: 90%;
+}
+
+#t2-header {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+}
+
+#t2-nav {
+  width: 15%;
+  height: 80vh;
+}
+
+#table-one-wrapper td {
+  background-color: red;
+}
+
+#table-one-wrapper tr:first-child td:first-child, #table-one-wrapper tr:first-child td:last-child {
+  background-color: orange;
+}
+
+#table-one-wrapper tr:last-child td:first-child, #table-one-wrapper tr:last-child td:last-child {
+  background-color: orange;
+}
+
+#table-one-wrapper tr:nth-child(3) td, #table-one-wrapper tr:nth-child(4) td {
+  background-color: yellow;
+}
+
+#headshot-cell {
+  background-color: white;
+  padding: 0;
+}
+
+/* tr:nth-of-type(odd) td:nth-of-type(even), tr:nth-of-type(even) td:nth-of-type(odd) {
+  background-color: red;
+  color: white;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(odd), tr:nth-of-type(even) td:nth-of-type(even) {
+  background-color: blue;
+  color: white;
+} */
