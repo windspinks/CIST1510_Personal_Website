@@ -16,7 +16,7 @@
   <meta name="twitter:url" content="https://www.briarmoorjewels.com/">
   <meta name="twitter:image" content="">
   <meta name="twitter:description" content="Art jewelry and sculpture individually hand-fabricated using traditional metalsmithing and stone setting techniques.">
-  <title>Briarmoor Jewels</title>
+  <title>Briarmoor Jewels - Events</title>
   <link rel="stylesheet" href="css/mainwebstyles.css">
   <link rel="shortcut icon" href="favicon.ico">
 </head>
@@ -38,31 +38,34 @@
           <li class="nav-links"> <a href="links.html">Links</a></li>
           <li class="nav-links"> <a href="other.html">Other</a></li>
         </ul>
-        <!-- DIV NAV -->
-        <!-- <div class="nav-link-wrapper">
-          <a class="nav-links" href="index.html">Home</a>
-          <a class="nav-links" href="jewelry.html">Jewelry</a>
-          <a class="nav-links" href="sculpture.html">Sculpture</a>
-          <a class="nav-links" href="events.html">Events</a>
-          <a class="nav-links" href="links.html">Links</a>
-          <a class="nav-links" href="other.html">Other</a>
-        </div> -->
       </nav>
     </div>
 
-    <div class="jcarousel">
-      <div class="jcarousel-list">
-        <img src="images/thumbs/rings/ring_1.jpg" class="jcarousel-item">
-        <img src="images/thumbs/necklaces/necklace_1.jpg" class="jcarousel-item">
-        <img src="images/thumbs/bracelets/bracelet_1.jpg" class="jcarousel-item">
-        <img src="images/thumbs/earrings/earring_1.jpg" class="jcarousel-item">
-      </div>
-    </div>
+    <h1 class=page-title>Newsletter</h1>
 
-    <div class="artist-statement-wrapper">
-      <p class="artist-statement">
-        Art Jewelry and Sculpture hand-fabricated using traditional metalsmithing and stone setting techniques.  Pieces are one-of-a-kind and may be made from copper and brass, sterling and fine silver, and, occasionally, gold.
-      </p>
+    <div class="newsletter">
+      <form class="newsletterForm" id="newsletterForm" action="sitemap.html" method="post">
+        <label for="nameInput">*Name: </label>
+        <input required type="text" name="nameInput" id="nameInput" placeholder="John Smith"><br>
+
+        <fieldset><legend>*Contact Info</legend>
+          <label for="emailInput">Email: </label>
+          <input type="email" name="emailInput" id="emailInput" placeholder="email@email.email"><br>
+          or <br>
+          <label for="telInput">Phone: </label>
+          <input type="tel" name="telInput" id="telInput" placeholder="123-456-7890"><br>
+        </fieldset>
+
+        <label id="forPassInput" for="passInput">*Robot Check, What's my title: </label>
+        <input requred type="password" name="passInput" id="passInput"><br>
+        <label for="agreementInput">*</label>
+        <input required type="checkbox" name="agreementInput" id="agreementInput" value="privacyPolicy">
+        I agree to the terms of the privacy policy outlined <a href="termsfeed-privacy-policy-html-english.html">here</a><br>
+
+        <input type="reset" name="resetButton" value="Reset">
+        <input type="submit" name="submitButton" value="Submit">
+        <p class="legalese">Fields marked with a '*' are mandatory</p>
+      </form>
     </div>
 
     <footer>
@@ -71,10 +74,8 @@
     </footer>
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery.jcarousel.min.js"></script>
-  <script src="js/index.js"></script>
   <script src="js/main.js"></script>
+<script src="js/newsletter.js"></script>
 </body>
 
 </html>
